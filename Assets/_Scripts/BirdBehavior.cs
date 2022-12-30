@@ -8,7 +8,7 @@ public class BirdBehavior : MonoBehaviour
     [SerializeField] private float rotateRate;
     private Rigidbody2D rb;
     private PolygonCollider2D pc;
-
+ 
     private Animator anim;
 
     private bool playing = false;
